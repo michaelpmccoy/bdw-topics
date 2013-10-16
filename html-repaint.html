@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title> HTML repaint </title>
+  </head>
+
+<h1> Mike McCoy: HTML Repaint </h1>
+
+  <h2>Article 1: Repaint Java Glossary by Roedy Green</h2>
+  <h2><a href="http://mindprod.com/jgloss/repaint.html">mindprod.com repaint article</a></h2>
+
+    <h3>I had some trouble finding articles on repaint, but this one, while being a glossary entry, has some good information. It defines repaint as erasing and redrawing, or updating, after a delay. Which gives more time for changes before the drawing actually happens. The author explains that it sends a message to the GUI suggesting that it would be optimal to paint during downtime. And then the GUI handles it from there and prioritizes the request in a queue. The author also states some reasons for what can trigger a repaint, like invalidation, or marking something as needing to be re-laid out. The author gets into techno jargon that&rsquo;s over my head, but he gives some suggestions on how to speed up repaint with some lines of code. This article was a bit advanced for me, but it introduced me to the concept of repaint, which is good. </h3>
+
+<br>
+
+  <h2>Article 2: The repaint method and the GUI thread</h2>
+  <h2><a href="http://www.scs.ryerson.ca/mes/courses/cps530/programs/threads/Repaint/index.html">Repaint method article</a></h2>
+
+    <h3>This article had a decent section on the repaint method, where they define it as the process by which the program does the drawing in response to user input. It sounds like it essentially schedules a call for an update. The author explains what can make repaints tricky, wichi includes the interaction between repaint and the painting done by the GUI, and the fact that repaint is just askihng the system to schedule the update, and not much more. Honestly, this article didn&rsquo;t help me out much. It was written in a fairly dry manner, and was over my head, once again. But I had trouble finding decent articles on repaint, and at least it introduced the concept to me. Like most of these topics, I&rsquo;m sure over time it will gain traction in my mind.</h3>
+</html>
